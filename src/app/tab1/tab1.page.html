@@ -1,0 +1,135 @@
+<ion-header >
+  <ion-toolbar>
+ 
+    <div class="centrado">
+      <ion-buttons >
+        <ion-button color="secondary">
+          <ion-icon name="compass-outline" id="ubicacion"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  
+        <ion-searchbar [animated]="true" ></ion-searchbar>
+    
+          <ion-buttons >
+            <ion-button color="secondary">
+        <ion-icon name="person-circle-outline" id="perfil"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+      </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <div class="anuncio">
+    <ion-slides [options]="slideOpts" pager="true" > 
+      <ion-slide> 
+        <img src="../../assets/imagen.jpg" alt="">      
+      </ion-slide> 
+      <ion-slide> 
+        <img src="../../assets/imagen.jpg" alt="">     
+      
+     
+       </ion-slide> 
+      </ion-slides> 
+
+</div>
+
+<div class="filtro1" >
+  <ion-button color="tertiary">
+  <ion-icon name="funnel"></ion-icon>
+</ion-button>
+<div class="filtro2">
+  <ion-button color="tertiary">
+  <ion-icon name="apps"></ion-icon>
+</ion-button>
+<ion-button color="tertiary">
+  <ion-icon name="filter"></ion-icon>
+</ion-button>
+</div>
+
+</div>
+
+<div class="slideCat">
+<ion-slides [options]="slideOpts" pager="false" > 
+    <ion-slide class="categoriasRecomen"> 
+      <div class="Categorias">
+      <img src="../../assets/MovilRecortado.jpg" alt="" id="imagenCateg">
+      <h6 id="tamaño">Ordenadores SobreMesa</h6>
+    </div>
+               
+
+         
+     
+    <div class="Categorias2">
+           <img src="../../assets/imagen2.jpg" alt="" id="imagenCateg">
+           <h6 id="tamaño">Ordenadores SobreMesa</h6>
+    </div>
+           
+    <div class="Categorias2">
+            <img src="../../assets/MovilRecortado.jpg" alt="" id="imagenCateg">
+            <h6 id="tamaño">Ordenadores SobreMesa</h6>
+     </div>
+     <div class="Categorias2">
+            <img src="../../assets/MovilRecortado.jpg" alt="" id="imagenCateg">
+            <h6 id="tamaño">Ordenadores SobreMesa</h6>
+          </div>
+        </ion-slide>  
+          <ion-slide class="categoriasRecomen"> 
+            <img src="../../assets/MovilRecortado.PNG" alt="" id="imagenCateg">
+
+            <img src="../../assets/MovilRecortado.PNG" alt="" id="imagenCateg">
+      
+            <img src="../../assets/imagen2.jpg" alt="" id="imagenCateg">
+           
+          
+            <img src="../../assets/MovilRecortado.jpg" alt="" id="imagenCateg">
+         
+            <img src="../../assets/MovilRecortado.jpg" alt="" id="imagenCateg">
+          
+            <img src="../../assets/MovilRecortado.PNG" alt="" id="imagenCateg">
+          
+            <img src="../../assets/MovilRecortado.PNG" alt="" id="imagenCateg">
+          </ion-slide>              
+                               
+          
+        </ion-slides> 
+      </div>
+<h6>Productos mas recomendados</h6>
+<ion-grid>
+  <ion-row>
+  <ion-col>
+    <a href="tabs/tab4">
+    <img src="../../assets/imagen2.jpg" alt="" ></a>
+    <p>HP 15S-fq2095ns Intel Core i3-1115G4/8GB/256GB SSD/15.6"</p>
+    <div class="iconoPre">
+    <ion-icon name="heart" id="corazon"></ion-icon>
+    <h5>300€</h5>
+    </div>
+
+  </ion-col>
+  <ion-col>
+    <img src="../../assets/imagen2.jpg" alt="">
+    <p>HP 15S-fq2095ns Intel Core i3-1115G4/8GB/256GB SSD/15.6"</p>
+    <div class="iconoPre">
+      <ion-icon name="heart" id="corazon"></ion-icon>
+      <h5>400€</h5>
+      </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col>
+    <img src="../../assets/imagen2.jpg" alt="">
+    <p>HP 15S-fq2095ns Intel Core i3-1115G4/8GB/256GB SSD/15.6"</p>
+
+</ion-col>
+<ion-col>
+  <img src="../../assets/imagen2.jpg" alt="">
+  <p>HP 15S-fq2095ns Intel Core i3-1115G4/8GB/256GB SSD/15.6"</p>
+
+</ion-col>
+</ion-row>
+  </ion-grid>
+
+</ion-content>

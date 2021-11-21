@@ -1,0 +1,95 @@
+.centrado{
+  
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 10px;
+
+
+}
+#ubicacion{
+    font-size:30px ;
+
+}
+#perfil{
+    font-size: 30px;
+}
+.anuncio{
+padding-top: 20px;
+
+}
+.filtro1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px
+}
+.filtro2{
+
+    display: flex;
+    flex-direction: row;
+    margin-left:auto;
+    justify-content: space-between;
+
+}
+
+ion-searchbar{
+    padding-bottom: 1px !important;
+}
+p{
+    text-align: center;
+    font-size: 12px;
+}
+h6{
+    text-align: center;
+    
+    font-size: 15px;
+}
+h5{
+ 
+    margin-left: 10px;
+    color: green;
+    font-size: 19px;
+    
+}
+.iconoPre{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    align-items: center;
+    
+}
+#corazon{
+    font-size: 30px;
+}
+.categoriasRecomen{
+   
+    width: 300px !important;
+    padding-left: 90px !important;
+    padding-top: 20px  !important;
+}
+.Catagorias{
+    padding-top: 10px;
+}
+.Categorias2{
+
+    padding-left: 20px;
+}
+
+
+
+
+#imagenCateg{
+    width: 60px !important;
+    object-fit: cover;
+}
+
+body{
+background-color: white !important; 
+}
+
+#tamaño{
+    font-size: 13px;
+}

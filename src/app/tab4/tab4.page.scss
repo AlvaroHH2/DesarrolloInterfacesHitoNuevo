@@ -1,0 +1,82 @@
+h3{
+    padding-left: 17px;
+    font-size: 17px;
+}
+.foto{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#precio{
+    
+    
+    text-align: left;
+    color: rgb(243, 159, 2);
+    margin-left: 20px;
+}
+.precios{
+    
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+h4{
+    font-size: 17px;
+    color: rgb(172, 173, 172);
+
+}
+.SinIva{
+    margin-left: 30px;
+    text-align: center;
+}
+#stats{
+    font-size: 30px;
+    margin-left: 35px;
+}
+#envio{
+    color: rgb(24, 155, 24);
+}
+.envioStock{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.opinion{
+    width: 50%;
+    margin-left: 20px;
+}
+#vendido
+{
+    font-size:13px ;
+}
+.botonProducto{
+    display: flex;
+    flex-direction: row;
+   
+}
+.opina{
+    margin-left: 12px;
+}
+#boton1{
+  margin-left: 25px;
+}
+#boton3{
+    
+    margin-left: 15px;
+}
+#boton2{
+   
+    margin-left: 9px;
+}
+#stock{
+    margin-left: auto;
+    width: 50px;
+    color: green;
+}
+#cuando{
+    width: 100px;
+    margin-left:auto;
+}
