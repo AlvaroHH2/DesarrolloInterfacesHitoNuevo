@@ -1,5 +1,5 @@
 h3{
-    padding-left: 17px;
+    
     font-size: 17px;
 }
 .foto{
@@ -14,7 +14,7 @@ h3{
     
     text-align: left;
     color: rgb(243, 159, 2);
-    margin-left: 20px;
+   
 }
 .precios{
     
@@ -23,18 +23,32 @@ h3{
   
   
 }
+.centrado{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+ 
+ 
+ }
 h4{
     font-size: 17px;
-    color: rgb(172, 173, 172);
+    color: rgb(142, 143, 142);
 
 }
 .SinIva{
     margin-left: 30px;
     text-align: center;
+  
+}
+#sinIva{
+    font-size: 13px;
 }
 #stats{
-    font-size: 30px;
-    margin-left: 35px;
+    font-size: 35px;
+    margin-left: 65px;
 }
 #envio{
     color: rgb(24, 155, 24);
@@ -42,12 +56,9 @@ h4{
 .envioStock{
     display: flex;
     flex-direction: row;
-    margin-left: 15px;
+
 }
-.opinion{
-    width: 50%;
-    margin-left: 20px;
-}
+
 #vendido
 {
     font-size:13px ;
@@ -55,28 +66,32 @@ h4{
 .botonProducto{
     display: flex;
     flex-direction: row;
-   
+   padding-top: 20px;
 }
-.opina{
-    margin-left: 12px;
-}
+
 #boton1{
-  margin-left: 25px;
+  width: 150px;
+  margin-left: 40px;
 }
 #boton3{
     
     margin-left: 15px;
 }
-#boton2{
-   
-    margin-left: 9px;
-}
+
 #stock{
     margin-left: auto;
-    width: 50px;
+    width: 70px;
     color: green;
 }
 #cuando{
     width: 100px;
-    margin-left:auto;
+    margin-left:20px;
+   
+}
+.paginaEspecificacion{
+    width:92%;
+    margin: auto;
+}
+#textoProducto{
+    text-align: center;
 }

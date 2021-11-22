@@ -1,52 +1,73 @@
 <ion-header>
   <ion-toolbar>
     <ion-title></ion-title>
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
-    </ion-buttons>
+    <div class="centrado">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
+      </ion-buttons>
+  
+        <ion-searchbar [animated]="true" ></ion-searchbar>
+    
+          <ion-buttons >
+            <ion-button color="secondary">
+        <ion-icon name="person-circle-outline" id="perfil"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+      </div>
+  
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-<div class="foto">
- <img src="../../assets/imagen3.jpg" alt="">
-</div>
+  <h3 id="textoProducto"><strong>HP Essential 255 G8 AMD
+  5 5500U/8GB
+  SSD/15.6"</strong> </h3>
+  <ion-slides [options]="slideOpts" pager="true" class="foto"> 
+    <ion-slide> 
+      <img src="../../assets/imagen3.jpg" alt="">     
+    </ion-slide> 
+    <ion-slide> 
+      
+      
+      <img src="../../assets/imagen4.jpg" alt="">   
+    </ion-slide> 
+  </ion-slides> 
 
-<div class="textoProducto">
- <h3><strong>HP Essential 255 G8 AMD</strong></h3>
- <h3><strong>5 5500U/8GB
- SSD/15.6"</strong> </h3></div>
+<div class="paginaEspecificacion">
+
   <div class="precios">
   <h2 id="precio">599€</h2>
   <div class="SinIva">
-  <h4 >Sin IVA</h4>
+  <h4 id="sinIva">Sin IVA</h4>
   <h4><strong>470€</strong></h4>
 </div>
 <ion-icon name="stats-chart-outline" id="stats"></ion-icon>
 </div>
-<div class="opina">
-<p>Opina</p>
+
+
 <p id="vendido">Vendido y enviado por PcShop</p>
 <strong>Envío :</strong>
-</div>
+
 <div class="envioStock">
 <p>
 <strong id="envio">Envio Gratis!!</strong></p>
 <h6 id="stock">En Stock! </h6>
 <h6 id="cuando">Recibelo el martes 18 Octubre</h6>
+
 </div>
 <div class="botonProducto">
-<ion-fab-button  id="boton2" href="tabs/tab2">
-  <ion-icon name="briefcase" ></ion-icon>
-
-</ion-fab-button>
-<ion-fab-button id="boton3" color="nuevo">
-  <ion-icon name="heart"></ion-icon>
-
-</ion-fab-button>
-
-
-
-<ion-button  type="submit" expand="block" color="warning" id="boton1" >Comprar Ya</ion-button>
+  <ion-fab-button  id="boton2" href="tabs/tab2" color="warning">
+    <ion-icon name="bag"></ion-icon>
+    
+  </ion-fab-button>
+  <ion-fab-button id="boton3" color="nuevo">
+    <ion-icon name="heart"></ion-icon>
+    
+  </ion-fab-button>
+  
+  
+  
+  <ion-button  type="submit" expand="block" color="success" id="boton1" >Comprar Ya</ion-button>
+</div>
 </div>
 </ion-content>

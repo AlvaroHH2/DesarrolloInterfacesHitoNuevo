@@ -67,22 +67,26 @@ h5{
 .categoriasRecomen{
    
     width: 300px !important;
-    padding-left: 90px !important;
-    padding-top: 20px  !important;
+    padding-top: 10% !important;
+    margin-left: -3%;
 }
-.Catagorias{
-    padding-top: 10px;
-}
+
 .Categorias2{
 
-    padding-left: 20px;
+    margin-left: 8%;
 }
 
+.categoriasRecomen2{
+   
+    width: 300px !important;
+    padding-top: 10% !important;
+    margin-left: 2%;
+}
 
 
 
 #imagenCateg{
-    width: 60px !important;
+   width: 80%;
     object-fit: cover;
 }
 
@@ -91,5 +95,5 @@ background-color: white !important;
 }
 
 #tamaño{
-    font-size: 13px;
+    font-size: 12px;
 }

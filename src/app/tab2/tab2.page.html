@@ -1,15 +1,52 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Pagina Principal
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <div class="cesta">
-    <nav class="cestaAa">
-  <h6>Productos en la cesta</h6> <h6 id="cestaNum">1</h6>
+  <img src="../../assets/Logo.png" alt="" id="logo">
+  <nav class="cestaAa">
+    <h6>Productos en la cesta</h6> <h6 id="cestaNum">1</h6>
+  </nav>
+  <h6>
+    
+  </h6>
+  <div class="foto">
+    <img src="../../assets/imagen3.jpg" alt="">
+  </div>
+ <nav class="centrado">
+ <h6>HP Essential 255 G8 AMD 5 5500U/8GB SSD/15.6 </h6>
+ <h6 id="stock"> <strong>En Stock!</strong>  
+ Recibelo el martes 18 de Octubre</h6>
+</nav>
+<nav class="botones">
+  <ion-item>
+    <ion-label id="cantidad">Cantidad </ion-label>
+    <ion-select value="1">
+      <ion-select-option value="1" color="tertiary">1</ion-select-option>
+      <ion-select-option value="2" color="tertiary">2</ion-select-option>
+
+      <ion-select-option value="3" color="tertiary">3</ion-select-option>
+
+      <ion-select-option value="4" color="tertiary">4</ion-select-option>
+
+    </ion-select>
+  </ion-item>
+  <div class="botonEliminarCesta">
+  <ion-button  type="submit" expand="block"  color="danger" id="boton3" >
+    <ion-icon name="trash-outline"></ion-icon>
+    Eliminar de la Cesta</ion-button>
+    </div>
+    <div class="botonSeguir">
+  <ion-button  type="submit" expand="block"  color="success" id="boton2" >
+    <ion-icon name="bag-add-outline"></ion-icon>
+    Seguir Comprando</ion-button>
+  </div>
+
 </nav>
 </div>
  
