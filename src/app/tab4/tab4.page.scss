@@ -23,6 +23,9 @@ h3{
   
   
 }
+#perfil{
+    font-size: 35px;
+}
 .centrado{
   
     display: flex;
@@ -49,6 +52,7 @@ h4{
 #stats{
     font-size: 35px;
     margin-left: 65px;
+    margin-top: 6%;
 }
 #envio{
     color: rgb(24, 155, 24);
@@ -91,6 +95,7 @@ h4{
 .paginaEspecificacion{
     width:92%;
     margin: auto;
+    align-content: center;
 }
 #textoProducto{
     text-align: center;

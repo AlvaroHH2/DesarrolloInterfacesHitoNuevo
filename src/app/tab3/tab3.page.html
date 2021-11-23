@@ -1,11 +1,29 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      
     </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
+    </ion-buttons>
+  
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
+<nav class="perfil"> 
+<ion-fab-button color="danger">
+  <ion-icon name="person" id="persona"></ion-icon>
+</ion-fab-button>
+
+</nav>  
+
+  <img src="../../assets/bannerPerfil.jpg" > 
+<div class="NombreEdit">
+  <ion-item>
+  <h6>Tu Nombre</h6>
+  <ion-icon name="create"></ion-icon>
+</ion-item>
+</div>
 </ion-content>
