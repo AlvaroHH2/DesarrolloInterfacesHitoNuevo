@@ -68,12 +68,17 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 2px solid;
+  
 }
 #contratar{
-    font-size: 12px;
+    font-size: 11px;
+   
 }
 .finalizarCompra{
     margin-top: 10px;
-    border: 2px solid;
+    border: 5px inset rgb(138, 41, 41);
+}
+#tarifaPre{
+    font-size: 12px;
+    margin-right: 30px;
 }

@@ -26,14 +26,14 @@ const routes: Routes = [
     
       {
         path: '',
-        redirectTo: '/tab4',
+        redirectTo: '/tabs/tab1',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tab4',
+    redirectTo: '/tabs/tab1',
     pathMatch: 'full'
   }
 ];

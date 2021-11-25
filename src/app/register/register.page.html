@@ -1,75 +1,75 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-  <div class="logo">
-    <img src="../../assets/icon/favicon.png" alt="">
-    </div>
-    <ion-list>
-    <form [formGroup]="usuario">
+<ion-content [fullscreen]="true" >
+    <div class="logo">
+      <img src="../../assets/Logo.png" alt="logo">
+     </div>
+     <div class="tabs">
+      
+     <ion-tab-bar  >
      
-      <div class="formulario">
-        <div class="formularioInicial">
-          
-          <ion-item class="rou">
-            <ion-label position="floating">
-              <ion-icon name="mail-outline" item-start class="text-primary"></ion-icon> Email</ion-label>
+       <ion-tab-button  class="loginCaja">
+ 
+         <ion-label id="login">Login</ion-label>
+       </ion-tab-button>
   
-            <ion-input formControlName="email" autocapitalize="off"></ion-input>
-            </ion-item>
-            <ion-label color="danger" *ngIf="usuario.controls.email.errors?.email && (usuario.touched || usuario.dirty)">* El email no es válido.</ion-label>
-  
-  
-            <ion-item>
-              <ion-label position="floating">
-                <ion-icon name="lock-closed-outline" item-start class="text-primary"></ion-icon>
-                Contraseña</ion-label>
-              <ion-input formControlName="password" type="password"></ion-input>
-              </ion-item>
-              <ion-label color="danger" *ngIf="usuario.controls.password.errors?.minlength && (usuario.touched || usuario.dirty)">*La contraseña debe tener al menos 4
-              caracteres</ion-label>
-              
-         
+       <ion-tab-button href="/register" class="registerCaja">
+         <ion-label>Register</ion-label>
+       </ion-tab-button>
+     </ion-tab-bar>
+ 
+   </div>
+   <ion-list>
+   <form [formGroup]="usuario">
     
-      </div>
-  
-     <div class="olvideContra">
-       <a href="">He olvidado mi contraseña</a>
-       
-       <div class="CheckBox">     
+     <div class="formulario">
+       <div class="formularioInicial">
+         
+         <ion-item class="rou">
+           <ion-label position="floating">
+             <ion-icon name="mail-outline" item-start class="text-primary"></ion-icon> Email</ion-label>
+ 
+           <ion-input formControlName="email" autocapitalize="off"></ion-input>
+           </ion-item>
+           <ion-label color="danger" *ngIf="usuario.controls.email.errors?.email && (usuario.touched || usuario.dirty)">* El email no es válido.</ion-label>
+ 
+ 
+           <ion-item>
+             <ion-label position="floating">
+               <ion-icon name="lock-closed-outline" item-start class="text-primary"></ion-icon>
+               Contraseña</ion-label>
+             <ion-input formControlName="password" type="password"></ion-input>
+             </ion-item>
+             <ion-label color="danger" *ngIf="usuario.controls.password.errors?.minlength && (usuario.touched || usuario.dirty)">*La contraseña debe tener al menos 4
+             caracteres</ion-label>
+             
+        
    
-        </div>
-      </div>
-      <div class="ion-padding">
-        <div class="botonInicioSesion">
-        <ion-button  [disabled]="!usuario.valid" (click)="login()" type="submit" color="primary" expand="block" color="secondary">Login</ion-button>
-      </div>
-        </div>
-   <!--
-     
-   <ion-button color="secondary" href="tabs/tab1">
+     </div>
+ 
+    <div class="olvideContra">
+      <a href="">He olvidado mi contraseña</a>
+      
+      <div class="CheckBox">     
   
-     Iniciar Sesión
-   </ion-button>
-   -->
-   <div class="registrarse">
-   <p id="or">or</p>
-   <ion-button color="primary">
-    <ion-icon name="logo-facebook"></ion-icon>
-    Log-In Facebook
-   </ion-button>
-  </div>
-  <div class="ion-padding">
-    <div class="register">
-     <p>You dont have account</p>
-    <ion-button  type="submit" color="primary" expand="block" color="warning" href="">Register</ion-button>
-  </div>
-  </div>
-  </div>
-   </form>
-  </ion-list>
+       </div>
+     </div>
+     <div class="ion-padding">
+       <div class="botonInicioSesion">
+       <ion-button  [disabled]="!usuario.valid" (click)="login()" type="submit" color="primary" expand="block" color="secondary">Login</ion-button>
+     </div>
+       </div>
+ 
+  <div class="registrarse">
+  <p id="or">or</p>
+  <ion-button color="primary">
+   <ion-icon name="logo-facebook"></ion-icon>
+   Log-In Facebook
+  </ion-button>
+ </div>
+ 
+ </div>
+  </form>
+ </ion-list>
+
   </ion-content> 
-</ion-content>
+

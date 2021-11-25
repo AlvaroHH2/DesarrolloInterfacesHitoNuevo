@@ -2,6 +2,23 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+@font-face {
+  font-family: 'festive';
+  src: url(../assets/fonts/festive.ttf);
+
+}
+@font-face {
+font-family: 'titulo';
+src: url(../assets/fonts/lato.ttf);
+}
+@font-face {
+  font-family: 'opensans';
+  src: url(../assets/fonts/opensans.ttf);
+  }
+  @font-face {
+    font-family: 'chino';
+    src: url(../assets/fonts/chino.ttf);
+    }
 :root {
   /** primary **/
   --ion-color-primary: #a85e98;
@@ -44,12 +61,12 @@
   --ion-color-warning-tint: #969696;
 
   /** danger **/
-  --ion-color-danger: #797576;
+  --ion-color-danger: #797575;
   --ion-color-danger-rgb: 235, 68, 90;
   --ion-color-danger-contrast: #ffffff;
   --ion-color-danger-contrast-rgb: 255, 255, 255;
   --ion-color-danger-shade: #cf3c4f;
-  --ion-color-danger-tint: #ed576b;
+  --ion-color-danger-tint: #fa0929;
 
   /** dark **/
   --ion-color-dark: #1523df;
@@ -57,7 +74,7 @@
   --ion-color-dark-contrast: #ffffff;
   --ion-color-dark-contrast-rgb: 255, 255, 255;
   --ion-color-dark-shade: #1e2023;
-  --ion-color-dark-tint: #383a3e;
+  --ion-color-dark-tint: #25314b;
 
 
   --ion-color-nuevo: #000000;

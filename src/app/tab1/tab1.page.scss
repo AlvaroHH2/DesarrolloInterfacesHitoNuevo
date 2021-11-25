@@ -61,19 +61,35 @@ h5{
     align-items: center;
     
 }
-#corazon{
+#corazon2{
+    color:black;
+
+    font-size: 30px;
+}
+#corazon3{
+    color:black;
+
+    font-size: 30px;
+}
+#corazon4{
+    color:black;
+
+    font-size: 30px;
+}
+#corazon1{
+    color:black;
     font-size: 30px;
 }
 .categoriasRecomen{
    
     width: 300px !important;
-    padding-top: 10% !important;
+    padding-top: 4% !important;
     margin-left: -3%;
 }
 
 .Categorias2{
 
-    margin-left: 8%;
+    margin-left: 11%;
     
 }
 
@@ -97,4 +113,21 @@ background-color: white !important;
 
 #tamaño{
     font-size: 12px;
+    font-family: 'titulo';
 }
+#miBoton { 
+    padding: 30px; 
+    background: light-gray; 
+    color: black; 
+  } 
+  #miBoton:hover { 
+    padding: 30px; 
+    background: blue; 
+    color: white; 
+  } 
+  #miBoton:active { 
+    padding: 30px; 
+    background: gray; 
+    color: white; 
+  } 
+ 

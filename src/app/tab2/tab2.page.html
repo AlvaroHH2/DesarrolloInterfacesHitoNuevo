@@ -37,21 +37,17 @@
     </ion-select>
   </ion-item>
   <div class="botonEliminarCesta">
-  <ion-button  type="submit" expand="block"  color="danger" id="boton3" >
+  <ion-button  type="submit" expand="block"  color="danger" id="boton3" class="ion-text-capitalize">
     <ion-icon name="trash-outline"></ion-icon>
-    Eliminar de la Cesta</ion-button>
+    Eliminar</ion-button>
     </div>
-    <div class="botonSeguir">
-  <ion-button  type="submit" expand="block"  color="success" id="boton2" >
-    <ion-icon name="bag-add-outline"></ion-icon>
-    Seguir Comprando</ion-button>
-  </div>
+    
   <div class="finalizarCompra">
     <nav class="tarifa">
-    <h6>Tarifa Premium</h6>
+    <h6 id="tarifaPre">Tarifa Premium</h6>
     <ion-item>
     <ion-checkbox slot="start" color="primary" ></ion-checkbox>
-      <p id="contratar">Contratar Tarifa Premium</p>
+      <h6 id="contratar">Contratar Tarifa Premium</h6>
   </ion-item>
 
   </nav>
@@ -61,7 +57,11 @@
 
   </nav>
 </div>
-    <ion-button  type="submit" expand="block"  color="dark" id="boton2" >
+<div class="botonSeguir">
+  <ion-button  type="submit" expand="block"  color="success" id="boton2" class="ion-text-capitalize">
+    Seguir Comprando</ion-button>
+  </div>
+    <ion-button  type="submit" expand="block"  color="dark" id="boton2" class="ion-text-capitalize">
       <ion-icon name="bag-add-outline"></ion-icon>
       Finalizar Compra</ion-button>
 </nav>

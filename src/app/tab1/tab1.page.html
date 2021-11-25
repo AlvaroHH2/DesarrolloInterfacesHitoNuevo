@@ -11,7 +11,7 @@
         <ion-searchbar [animated]="true" ></ion-searchbar>
     
           <ion-buttons >
-            <ion-button color="secondary">
+            <ion-button color="secondary" href="tabs/tab3">
         <ion-icon name="person-circle-outline" id="perfil"></ion-icon>
             </ion-button>
         </ion-buttons>
@@ -101,7 +101,8 @@
     <img src="../../assets/alimentacion.jpg" alt="" ></a>
     <p>Tempest Gaming GPSU Fuente de Alimentación 750W</p>
     <div class="iconoPre">
-    <ion-icon name="heart" id="corazon"></ion-icon>
+      <a (click)="func(1)"><ion-icon name="heart" id="corazon1"></ion-icon></a>
+   
     <h5>300€</h5>
     </div>
 
@@ -110,9 +111,14 @@
     <img src="../../assets/portatil.jpg" alt="">
     <p>HP 15S-fq2095ns Intel Core i3-1115G4/8GB/256GB ...</p>
     <div class="iconoPre">
-      <ion-icon name="heart" id="corazon"></ion-icon>
+      <a (click)="func(2)"><ion-icon name="heart" id="corazon2" ></ion-icon></a>
+
+        
+    
+  
       <h5>400€</h5>
       </div>
+     
   </ion-col>
 </ion-row>
 <ion-row>
@@ -120,7 +126,8 @@
     <img src="../../assets/cascos.jpg" alt="">
     <p>Logitech G332 Auriculares Gaming</p>
     <div class="iconoPre">
-      <ion-icon name="heart" id="corazon"></ion-icon>
+      <a (click)="func(3)">  <ion-icon name="heart" id="corazon3" ></ion-icon></a>
+     
       <h5>400€</h5>
       </div>
 </ion-col>
@@ -129,7 +136,9 @@
   <p>Lenovo Tab M10 FHD Plus 10.3" 4/128GB Gris 
   </p>
   <div class="iconoPre">
-    <ion-icon name="heart" id="corazon" color="medium"></ion-icon>
+    <a (click)="func(4)"> <ion-icon name="heart" id="corazon4" ></ion-icon></a>
+     
+    
     <h5>400€</h5>
     </div>
 </ion-col>

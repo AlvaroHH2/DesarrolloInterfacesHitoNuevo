@@ -1,14 +1,22 @@
-<!--<ion-header>
-  <ion-toolbar>
-    <ion-title></ion-title>
-    <ion-buttons slot="start">
-      
-    </ion-buttons> 
- </ion-toolbar>
-</ion-header>-->
+
  <ion-content [fullscreen]="true" >
-  <div class="logo">
-  <img src="../../assets/icon/favicon.png" alt="">
+   <div class="logo">
+     <img src="../../assets/Logo.png" alt="logo">
+    </div>
+    <div class="tabs">
+     
+    <ion-tab-bar  >
+    
+      <ion-tab-button  class="loginCaja">
+
+        <ion-label id="login">Login</ion-label>
+      </ion-tab-button>
+ 
+      <ion-tab-button href="/register" class="registerCaja">
+        <ion-label>Register</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+
   </div>
   <ion-list>
   <form [formGroup]="usuario">
@@ -64,12 +72,7 @@
   Log-In Facebook
  </ion-button>
 </div>
-<div class="ion-padding">
-  <div class="register">
-   <p>You dont have account</p>
-  <ion-button  type="submit" color="primary" expand="block" color="warning" href="register">Register</ion-button>
-</div>
-</div>
+
 </div>
  </form>
 </ion-list>

@@ -1,0 +1,100 @@
+.logo{
+    padding-top: 50px;
+    margin: auto;
+    text-align: center
+}
+
+.formularioInicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    
+    height: 180px;
+    width: 70%;
+    
+}
+
+.register{
+  padding-top: 60px;
+}
+.roundedInput {
+    --border-color: var(--ion-color-medium-shade);
+    --border-radius: 3px;
+    --border-width: 1px;
+    --box-shadow: 2px gray;
+    --highlight-height: 0;
+    --background: #f8f9fa;
+   }
+   .botonInicioSesion
+   {
+      margin: auto;
+     width: 40%;
+   }
+  
+   #or{
+       text-align: center;
+   }
+   .registrarse{
+       
+       text-align: center;
+      
+   }
+   .olvideContra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+ 
+   }
+   .CheckBox{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       width: 360px;
+   }
+   ion-item:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  ion-item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  ion-item.item {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 1px;
+    .label {
+      width: 10%;
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 1.2em;
+    }
+  }
+p{
+  text-align: center;
+  font-size: 14px;
+}
+ion-tab-bar{
+  margin-top: 15px;
+
+}
+ion-label{
+  color: rgb(27, 27, 27);
+  font-size: 17px;
+}
+ion-tab-button{
+  color: #0a0a0a;
+}
+#login{
+  color: rgb(0, 0, 0);
+}
+.loginCaja{
+  border: 1px solid rgb(216, 211, 211);
+  background-color: rgb(94, 91, 91);
+
+
+}
+.registerCaja{
+  border: 1px solid rgb(61, 59, 59);
+  background-color: rgb(190, 107, 107);
+}

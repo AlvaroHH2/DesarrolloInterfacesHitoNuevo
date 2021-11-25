@@ -6,16 +6,61 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
+  element: HTMLElement;
+  
+  public contador=0;
   constructor() {}
-
-
-
-
+  func(index) {
+    
+    switch (index) {
+      case 1:
+       
+      
+      
+          this.element=document.getElementById("corazon1") as HTMLElement;
+            this.element.style.color='red';
+            
+        
+     
+        break;
+        case 2:
+        
+        
+            this.element=document.getElementById("corazon2") as HTMLElement;
+              this.element.style.color='red';
+              this.contador-1;
+          
+         
+          break;
+          case 3:
+      
+      
+          this.element=document.getElementById("corazon3") as HTMLElement;
+            this.element.style.color='red';
+            this.contador-1;
+        
+       
+        break;
+        case 4:
+      
+          this.element=document.getElementById("corazon4") as HTMLElement;
+            this.element.style.color='red';
+            this.contador-1;
+        
+       
+        break;
+      default:
+        break;
+    }
+  
+   }
+   
 buscar(event){
-
+ 
 
 }
+
+
 
 }
 export class imageSlider {
@@ -39,3 +84,4 @@ export class imageSlider {
     }
   }
 }
+
