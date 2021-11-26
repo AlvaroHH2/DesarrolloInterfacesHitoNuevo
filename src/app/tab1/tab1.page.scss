@@ -47,49 +47,54 @@ h6{
     
     font-size: 15px;
 }
-h5{
+.iconoPre h5{
  
     margin-left: 10px;
     color: green;
     font-size: 19px;
     
 }
+.ochenta{
+    width: 80%;
+    margin: 0px auto;
+}
+
 .iconoPre{
     display: flex;
     flex-direction: row;
-    padding-top: 0px;
+    justify-content: space-between;
     align-items: center;
     
 }
 #corazon2{
-    color:black;
+    color:rgb(199, 194, 194);
 
-    font-size: 30px;
+    font-size: 25px;
 }
 #corazon3{
-    color:black;
+    color:rgb(199, 194, 194);
 
-    font-size: 30px;
+    font-size: 25px;
 }
 #corazon4{
-    color:black;
+    color:rgb(199, 194, 194);
 
-    font-size: 30px;
+    font-size: 25px;
 }
 #corazon1{
-    color:black;
-    font-size: 30px;
+    color:rgb(199, 194, 194);
+    font-size: 25px;
 }
 .categoriasRecomen{
    
     width: 300px !important;
     padding-top: 4% !important;
-    margin-left: -3%;
+    margin-left: 1%;
 }
 
 .Categorias2{
 
-    margin-left: 11%;
+    margin-left: 7%;
     
 }
 
@@ -130,4 +135,30 @@ background-color: white !important;
     background: gray; 
     color: white; 
   } 
- 
+ .TituProdu{
+     font-weight: 700;
+     color: #68385d;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 10pt;
+    
+ }
+
+ ion-note{
+     font-size: 8pt;
+ }
+ p, h5{
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ h5{
+     margin-top: 8px !important;
+     font-weight: 600;
+ }
+h5{
+    font-weight: 600;
+}
+
+#container{
+    width: 90%;
+    margin: 0px auto;
+}

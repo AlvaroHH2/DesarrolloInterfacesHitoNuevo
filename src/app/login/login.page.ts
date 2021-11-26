@@ -33,19 +33,7 @@ export class LoginPage implements OnInit {
         });
         });
         }
-        singin(){
-          this.auth.registerUser(this.usuario.value.email, this.usuario.value.password).then( result => {
-          this.router.navigate(['/tabs/tab1']);
-          }).catch(err=>{
-          this.alertCtrl.create({
-          header: 'Error',
-          subHeader: err.message,
-          buttons: ['Aceptar']
-          }).then(alert=>{
-          alert.present();
-          });
-          });
-          }
+       
     }
     
   

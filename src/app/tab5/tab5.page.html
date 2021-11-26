@@ -1,0 +1,99 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Finalizar Compra</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="Comprar">
+  <img src="../../assets/imagen3.jpg" alt="" id="imagen">     
+
+  <h6 id="textoPro">HP Essential 255 G8 AMD Ryzen 5 5500U/8GB
+    512GB SSD/15.6"
+    </h6>
+    <h4 class="ion-text-left" >Dirección de Envío</h4>
+    <nav class="direccion">
+      <ion-radio-group>
+        
+        <ion-item>
+       
+   
+          <ion-radio slot="start" value="Calle1" ></ion-radio>
+          <ion-label title="Calle Carpinteros,7-28906-GETAFE" >Calle Carpinteros,7-28906-GETAFE </ion-label>
+       
+        
+          </ion-item>
+    
+
+  
+        <ion-item>
+          
+          <ion-label  title="Calle Madrid,7-28906-GETAFE" >Calle Madrid,7-28906-GETAFE </ion-label>
+            <ion-radio slot="start" value="Calle2" ></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+
+    </nav>
+    <nav class="Método">
+      <h4 class="ion-text-left" >Método de Pago</h4>
+      <ion-radio-group>
+      <ion-item>
+          
+        <ion-label  title="" ><ion-icon name="wallet-outline" id="cartera"></ion-icon>Visa **** 473  </ion-label>
+          <ion-radio slot="start" value="metodo" > </ion-radio>
+      </ion-item>
+      </ion-radio-group>
+    </nav>
+  
+  
+
+  
+<!--Tipo envio-->
+
+    <nav class="tipoEnv">
+      <h4 class="ion-text-left" >Tipo de Envio</h4>
+      <ion-radio-group>
+        <ion-item>
+          
+          <ion-label >Estandar <b id="gratis">GRATIS!</b></ion-label>
+          <ion-radio slot="start" value="metodo" (click)="MostrarDiv(1)" > </ion-radio>
+        </ion-item>
+        <ion-item>
+          
+          <ion-label >Premium <b id="gratis">2€-5€</b></ion-label>
+          <ion-radio slot="start" value="metodo2" (click)="MostrarDiv(2)" > </ion-radio>
+        </ion-item>
+      </ion-radio-group>
+
+
+      <!--Tipos Envios-->
+      <div id="content1" style="display: none;">
+        <ion-label>Envio Estandar <b id="gratis">GRATIS!</b></ion-label>
+        <ion-select placeholder="¿Que día quieres?">
+          
+          <ion-select-option >2 /Dec /2021  </ion-select-option>
+          <ion-select-option>10 /Dec /2021  </ion-select-option>
+        </ion-select>
+
+      </div>
+      
+     
+      <div id="content2" style="display: none;">
+        <ion-label>Envio Premium</ion-label>
+        <ion-select placeholder="¿Que día quieres?">
+          
+          <ion-select-option >30 /Nov /2021 ( 2€ ) </ion-select-option>
+          <ion-select-option>28 /Nov /2021 ( 5€ )</ion-select-option>
+        </ion-select>
+        
+      </div>
+      </nav>
+      <a mdbBtn color="info" class="waves-light" (click)="showInfo()" mdbWavesEffect>Info message</a>
+
+    </div>
+
+
+</ion-content>

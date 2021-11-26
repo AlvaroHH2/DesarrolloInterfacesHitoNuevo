@@ -89,12 +89,16 @@ ion-tab-button{
   color: rgb(0, 0, 0);
 }
 .loginCaja{
-  border: 1px solid rgb(216, 211, 211);
-  background-color: rgb(94, 91, 91);
+  border-bottom: 1px solid rgb(0, 0, 0);
 
 
 }
 .registerCaja{
-  border: 1px solid rgb(61, 59, 59);
-  background-color: rgb(190, 107, 107);
+  border-bottom: 1px solid rgb(218, 212, 212);
+}
+#register{
+  color: #b4afaf;
+}
+#facebook{
+  margin-right: 10px;
 }

@@ -93,56 +93,65 @@
           
         </ion-slides> 
       </div>
-<h6>Productos mas recomendados</h6>
+      <div id="container">
+<h5 class="ion-text-left">Productos recomendados</h5>
 <ion-grid>
   <ion-row>
   <ion-col>
+    <div class="ochenta">
     <a href="tabs/tab4">
     <img src="../../assets/alimentacion.jpg" alt="" ></a>
-    <p>Tempest Gaming GPSU Fuente de Alimentación 750W</p>
+     <span class="TituProdu">Tempest Gaming GPSU </span> <ion-note> Fuente de Alimentación <b>750W</b> </ion-note>
     <div class="iconoPre">
       <a (click)="func(1)"><ion-icon name="heart" id="corazon1"></ion-icon></a>
    
     <h5>300€</h5>
     </div>
-
+  </div>
   </ion-col>
   <ion-col>
-    <img src="../../assets/portatil.jpg" alt="">
-    <p>HP 15S-fq2095ns Intel Core i3-1115G4/8GB/256GB ...</p>
-    <div class="iconoPre">
-      <a (click)="func(2)"><ion-icon name="heart" id="corazon2" ></ion-icon></a>
+    <div class="ochenta">
+    <a href="tabs/tab4">
+      <img src="../../assets/portatil.jpg" alt="" ></a>
 
-        
-    
-  
-      <h5>400€</h5>
-      </div>
-     
+     <span class="TituProdu">HP Essential </span> <ion-note> 255 G8 AMD 5 5500U/8GB SSD/15.6 </ion-note>
+    <div class="iconoPre">
+      <a (click)="func(2)"><ion-icon name="heart" id="corazon2"></ion-icon></a>
+   
+    <h5>300€</h5>
+    </div>
+  </div>
   </ion-col>
 </ion-row>
 <ion-row>
   <ion-col>
-    <img src="../../assets/cascos.jpg" alt="">
-    <p>Logitech G332 Auriculares Gaming</p>
+    <div class="ochenta">
+    <a href="tabs/tab4">
+      <img src="../../assets/cascos.jpg" alt="" ></a>
+
+     <span class="TituProdu">Auriculares Gaming </span> <ion-note> Logitech  <b>G332 </b> </ion-note>
     <div class="iconoPre">
-      <a (click)="func(3)">  <ion-icon name="heart" id="corazon3" ></ion-icon></a>
-     
-      <h5>400€</h5>
-      </div>
-</ion-col>
-<ion-col>
-  <img src="../../assets/tablets.jpg" alt="">
-  <p>Lenovo Tab M10 FHD Plus 10.3" 4/128GB Gris 
-  </p>
-  <div class="iconoPre">
-    <a (click)="func(4)"> <ion-icon name="heart" id="corazon4" ></ion-icon></a>
-     
-    
-    <h5>400€</h5>
+      <a (click)="func(3)"><ion-icon name="heart" id="corazon3"></ion-icon></a>
+   
+    <h5>300€</h5>
     </div>
-</ion-col>
+  </div>
+  </ion-col>
+  <ion-col>
+    <div class="ochenta">
+    <a href="tabs/tab4">
+      <img src="../../assets/tablets.jpg" alt="" ></a>
+
+     <span class="TituProdu">Lenovo Tab  </span> <ion-note>  M10 FHD Plus 10.3" 4/128GB <b>Gris </b> </ion-note>
+    <div class="iconoPre">
+      <a (click)="func(4)"><ion-icon name="heart" id="corazon4"></ion-icon></a>
+   
+    <h5>300€</h5>
+    </div>
+  </div>
+  </ion-col>
+
 </ion-row>
   </ion-grid>
-
+</div>
 </ion-content>

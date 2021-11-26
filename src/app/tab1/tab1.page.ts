@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class Tab1Page {
   element: HTMLElement;
   
-  public contador=0;
   constructor() {}
   func(index) {
     
@@ -28,7 +27,7 @@ export class Tab1Page {
         
             this.element=document.getElementById("corazon2") as HTMLElement;
               this.element.style.color='red';
-              this.contador-1;
+          
           
          
           break;
@@ -37,7 +36,7 @@ export class Tab1Page {
       
           this.element=document.getElementById("corazon3") as HTMLElement;
             this.element.style.color='red';
-            this.contador-1;
+         
         
        
         break;
@@ -45,7 +44,7 @@ export class Tab1Page {
       
           this.element=document.getElementById("corazon4") as HTMLElement;
             this.element.style.color='red';
-            this.contador-1;
+        
         
        
         break;

@@ -37,12 +37,13 @@
     </ion-select>
   </ion-item>
   <div class="botonEliminarCesta">
-  <ion-button  type="submit" expand="block"  color="danger" id="boton3" class="ion-text-capitalize">
+  <ion-button  type="submit" expand="block"  color="medium" id="boton3" class="ion-text-capitalize">
     <ion-icon name="trash-outline"></ion-icon>
     Eliminar</ion-button>
     </div>
     
   <div class="finalizarCompra">
+    <ion-card>
     <nav class="tarifa">
     <h6 id="tarifaPre">Tarifa Premium</h6>
     <ion-item>
@@ -51,18 +52,20 @@
   </ion-item>
 
   </nav>
+
   <nav class="precio">
-    <h5>Total:</h5>
-    <h3 slot="end">500 €</h3>
+    <h5 id="total">Total:</h5>
+    <h3 slot="end" id="precio"><strong>500 €</strong></h3>
 
   </nav>
+</ion-card>
 </div>
 <div class="botonSeguir">
   <ion-button  type="submit" expand="block"  color="success" id="boton2" class="ion-text-capitalize">
     Seguir Comprando</ion-button>
   </div>
-    <ion-button  type="submit" expand="block"  color="dark" id="boton2" class="ion-text-capitalize">
-      <ion-icon name="bag-add-outline"></ion-icon>
+    <ion-button href="/tab5" type="submit" expand="block"  color="dark" id="boton2" class="ion-text-capitalize">
+      <ion-icon name="bag-add-outline" id="compraMas"></ion-icon>
       Finalizar Compra</ion-button>
 </nav>
 </div>

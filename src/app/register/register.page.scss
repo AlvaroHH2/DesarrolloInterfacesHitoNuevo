@@ -42,16 +42,20 @@
    }
    .olvideContra{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
     text-align: center;
+    align-items: center;
+    justify-content: space-around;
  
    }
-   .CheckBox{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-       width: 360px;
+   #Aceptar{
+     font-size: 14px;
+     margin-left: -20px;
+     color: #242323;
    }
    ion-item:first-child {
     border-top-left-radius: 5px;
@@ -86,15 +90,24 @@ ion-tab-button{
   color: #0a0a0a;
 }
 #login{
-  color: rgb(0, 0, 0);
+  color: #b4afaf;
 }
 .loginCaja{
-  border: 1px solid rgb(216, 211, 211);
-  background-color: rgb(94, 91, 91);
+  border-bottom: 1px solid rgb(218, 212, 212);
 
 
 }
 .registerCaja{
-  border: 1px solid rgb(61, 59, 59);
-  background-color: rgb(190, 107, 107);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+#register{
+  color: rgb(0, 0, 0);
+
+}
+.pass{
+  margin-top: 10px;
+
+}
+#facebook{
+  margin-right: 10px;
 }

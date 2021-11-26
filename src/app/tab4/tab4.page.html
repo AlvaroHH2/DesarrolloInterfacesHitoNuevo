@@ -24,7 +24,8 @@
   SSD/15.6"</strong> </h3>
   <ion-slides [options]="slideOpts" pager="true" class="foto"> 
     <ion-slide> 
-      <img src="../../assets/imagen3.jpg" alt="">     
+      <img src="../../assets/imagen3.jpg" alt="">   
+
     </ion-slide> 
     <ion-slide> 
       
@@ -34,18 +35,19 @@
   </ion-slides> 
 
   <div class="paginaEspecificacion">
+    <ion-card>
     <div class="precios">
-      <h2 id="precio">599€</h2>
+      <h2 id="precio">599 €</h2>
       <div class="SinIva">
         
         <h4 id="sinIva">Sin IVA</h4>
-        <h4><strong>470€</strong></h4>
+        <h4><strong>470 €</strong></h4>
       </div>
 <ion-icon name="stats-chart-outline" id="stats"></ion-icon>
 
 </div>
-
-
+</ion-card>
+<ion-card>
 <p id="vendido">Vendido y enviado por PcShop</p>
 <strong >Envío :</strong>
 
@@ -56,12 +58,13 @@
 <h6 id="cuando">Recibelo el martes 18 Octubre</h6>
 
 </div>
+</ion-card>
 <div class="botonProducto">
   <ion-fab-button  id="boton2" href="tabs/tab2" color="warning">
     <ion-icon name="bag"></ion-icon>
     
   </ion-fab-button>
-  <ion-fab-button id="boton3" color="nuevo">
+  <ion-fab-button (click)="func()" id="boton3"  >
     <ion-icon name="heart"></ion-icon>
     
   </ion-fab-button>
@@ -70,5 +73,6 @@
   
   <ion-button  type="submit" expand="block" color="success" id="boton1" >Comprar Ya</ion-button>
 </div>
+
 </div>
 </ion-content>

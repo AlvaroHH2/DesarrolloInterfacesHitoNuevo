@@ -6,9 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tab4.page.scss'],
 })
 export class Tab4Page implements OnInit {
-
+  element: HTMLElement;
   constructor() { }
+  func() {
+    
+    
+    this.element=document.getElementById("boton3") as HTMLElement;
+    this.element.style.color='red';
 
+
+  }
   ngOnInit() {
   }
 
