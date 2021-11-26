@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ToastService } from 'ng-uikit-pro-standard';
+
 
 @Component({
   selector: 'app-tab5',
@@ -41,9 +41,7 @@ export class Tab5Page implements OnInit {
 
 
   ngOnInit() {
-    setTimeout(
-      () => this.toast.info("It works!")
-      );
+    
   }
 
 

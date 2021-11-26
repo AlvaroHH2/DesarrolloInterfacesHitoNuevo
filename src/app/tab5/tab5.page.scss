@@ -60,3 +60,24 @@ ion-select {
   #gratis{
       color: green  ;
   }
+  #comprarYa{
+      margin-top: 20px;
+  
+    }
+ .precioFinal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: row;
+    }
+#total{
+    font-size: 20px;
+    margin-top: 8%;
+}
+#precio{
+    
+    margin-top: 8%;
+}
+ion-card{
+    height: 70px;
+}

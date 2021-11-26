@@ -2,12 +2,12 @@
   <ion-toolbar>
     <ion-title>Finalizar Compra</ion-title>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
+      <ion-back-button defaultHref="/tab1"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true" >
   <div class="Comprar">
   <img src="../../assets/imagen3.jpg" alt="" id="imagen">     
 
@@ -91,8 +91,18 @@
         
       </div>
       </nav>
-      <a mdbBtn color="info" class="waves-light" (click)="showInfo()" mdbWavesEffect>Info message</a>
-
+      <ion-card>
+      <nav class="precioFinal">
+          <h5 id="total">Total:</h5>
+          <h3 slot="end" id="precio"><strong>500 €</strong></h3>
+      
+  
+          
+          
+        </nav>
+      </ion-card>
+      <ion-button  type="submit" color="primary" color="secondary"  id="comprarYa" class="ion-text-capitalize">Finalizar Compra</ion-button>
+      
     </div>
 
 

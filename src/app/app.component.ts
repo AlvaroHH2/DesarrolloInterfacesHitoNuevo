@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ToastService} from 'ng-uikit-pro-standard'
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -7,7 +7,7 @@ import {ToastService} from 'ng-uikit-pro-standard'
 })
 export class AppComponent {
   constructor(
-    private toast: ToastService
+  
 
   ) {}
 }

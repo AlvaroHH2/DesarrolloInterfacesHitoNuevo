@@ -32,31 +32,36 @@
 #botonConf1{
     --border-radius: 10px;
     --border-color: rgb(153, 150, 150);
-    --border-width: 4px;
+    --border-width: 2px;
     --border-style: ridge;    width: 100%;
     color: black;
     height: 50px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #botonConf2{
     --border-radius: 10px;
     --border-color: rgb(168, 167, 167);
-    --border-width: 4px;
+    --border-width: 2px;
     --border-style: ridge;
     width: 100%;
     color: black;
     height: 50px;
+    margin-top: 20px;
+
     
 }
 #botonConf3{
     --border-radius: 10px;
     --border-color: rgb(182, 132, 74);
-    --border-width: 4px;
+    --border-width: 2px;
     --border-style: ridge;
     width: 100%;
     color: black;
     height: 50px;
-    
+        margin-top: 20px;
+
+
 
 }
 .botonConf{
@@ -73,7 +78,8 @@
 }
 #editar{
     margin-left: 15px;
-    font-size: 30px;
+
+    
 }
 .Acercade{
     display: flex;
