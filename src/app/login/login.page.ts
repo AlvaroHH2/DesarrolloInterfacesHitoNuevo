@@ -3,6 +3,8 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { AuthService } from '../services/auth.service';
 import { AlertController } from '@ionic/angular';
 import { Router } from '@angular/router';
+import { ToastController } from '@ionic/angular';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
@@ -14,7 +16,7 @@ export class LoginPage implements OnInit {
     password: ['', [Validators.required, Validators.minLength(4)]],
     });
     
-    constructor(private fb: FormBuilder,
+    constructor(private fb: FormBuilder,public toastController: ToastController,
       private auth: AuthService,
       public alertCtrl: AlertController,
       private router: Router) { }
@@ -28,8 +30,18 @@ export class LoginPage implements OnInit {
         header: 'Error',
         subHeader: err.message,
         buttons: ['Aceptar']
-        }).then(alert=>{
-        alert.present();
+        }).then(async alert=>{
+
+    
+            const toast = await this.toastController.create({
+              position:'top',
+              message: '¡ Usuario o Contraseña Incorrecto !',
+              color:'medium',
+              duration: 1500
+            });
+            toast.present();
+          
+        
         });
         });
         }

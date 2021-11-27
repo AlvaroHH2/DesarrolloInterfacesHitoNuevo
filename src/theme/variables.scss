@@ -76,13 +76,13 @@ src: url(../assets/fonts/lato.ttf);
   --ion-color-dark-shade: #1e2023;
   --ion-color-dark-tint: #25314b;
 
-
-  --ion-color-nuevo: #000000;
-  --ion-color-nuevo-rgb: 34, 36, 40;
-  --ion-color-nuevo-contrast: #000000;
+  /** nuevo **/
+  --ion-color-nuevo: #eedddd;
+  --ion-color-nuevo-rgb: 255, 255, 255;
+  --ion-color-nuevo-contrast: #e43f3f;
   --ion-color-nuevo-contrast-rgb: 255, 255, 255;
   --ion-color-nuevo-shade: #1e2023;
-  --ion-color-nuevo-tint: #383a3e;
+  --ion-color-nuevo-tint: #ee5a5a;
 
 
   /** medium **/
@@ -100,6 +100,15 @@ src: url(../assets/fonts/lato.ttf);
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+.ion-color-nuevo {
+  --ion-color-base: var(--ion-color-nuevo);
+  --ion-color-base-rgb: var(--ion-color-nuevo-rgb);
+  --ion-color-contrast: var(--ion-color-nuevo-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-nuevo-contrast-rgb);
+  --ion-color-shade: var(--ion-color-nuevo-shade);
+  --ion-color-tint: var(--ion-color-nuevo-tint);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -7,12 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Tab4Page implements OnInit {
   element: HTMLElement;
+
   constructor() { }
   func() {
     
     
-    this.element=document.getElementById("boton3") as HTMLElement;
+    this.element=document.getElementById("botonColor") as HTMLElement;
+   
+
     this.element.style.color='red';
+   
 
 
   }

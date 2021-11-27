@@ -33,8 +33,20 @@
       <img src="../../assets/imagen4.jpg" alt="">   
     </ion-slide> 
   </ion-slides> 
-
   <div class="paginaEspecificacion">
+    <ion-item>
+  
+      <ion-label id="cantidad">Color </ion-label>
+      <ion-select value="1">
+        <ion-select-option value="1" color="tertiary">Rojo</ion-select-option>
+        <ion-select-option value="2" color="tertiary">Negro</ion-select-option>
+    
+        <ion-select-option value="3" color="tertiary">Azul</ion-select-option>
+    
+        <ion-select-option value="4" color="tertiary">Gris</ion-select-option>
+    
+      </ion-select>
+    </ion-item>
     <ion-card>
     <div class="precios">
       <h2 id="precio">599 €</h2>
@@ -55,17 +67,19 @@
 <p>
 <strong id="envio">Envio Gratis!!</strong></p>
 <h6 id="stock">En Stock! </h6>
-<h6 id="cuando">Recibelo el martes 18 Octubre</h6>
+<h6 id="cuando">Recibelo el jueves 2 de Diciembre</h6>
 
 </div>
+
 </ion-card>
+
 <div class="botonProducto">
   <ion-fab-button  id="boton2" href="tabs/tab2" color="warning">
     <ion-icon name="bag"></ion-icon>
     
   </ion-fab-button>
-  <ion-fab-button (click)="func()" id="boton3" color="nuevo"  >
-    <ion-icon name="heart"></ion-icon>
+  <ion-fab-button (click)="func()"  color="danger" id="boton3" >
+    <ion-icon name="heart" id="botonColor"></ion-icon>
     
   </ion-fab-button>
   

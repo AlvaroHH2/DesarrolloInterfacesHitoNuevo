@@ -50,7 +50,8 @@
 </div>
 
 </div>
-
+<nav class="tituloCatRec">
+<h5 class="ion-text-left">Categorías Recomendadas</h5></nav>
 <div class="slideCat">
 <ion-slides [options]="slideOpts" pager="false" > 
     <ion-slide class="categoriasRecomen"> 
@@ -67,6 +68,7 @@
    
     
         </ion-slide>  
+
           <ion-slide class="categoriasRecomen"> 
             <div class="Categorias2">
               <img src="../../assets/sobremesa.jpg" alt="" id="imagenCateg">
@@ -103,7 +105,7 @@
     <img src="../../assets/alimentacion.jpg" alt="" ></a>
      <span class="TituProdu">Tempest Gaming GPSU </span> <ion-note> Fuente de Alimentación <b>750W</b> </ion-note>
     <div class="iconoPre">
-      <a (click)="func(1)"><ion-icon name="heart" id="corazon1"></ion-icon></a>
+      <a (click)="func(1,this)" (click)="favoritos()" ><ion-icon name="heart" id="corazon1"></ion-icon></a>
    
     <h5>300€</h5>
     </div>
@@ -116,7 +118,7 @@
 
      <span class="TituProdu">HP Essential </span> <ion-note> 255 G8 AMD 5 5500U/8GB SSD/15.6 </ion-note>
     <div class="iconoPre">
-      <a (click)="func(2)"><ion-icon name="heart" id="corazon2"></ion-icon></a>
+      <a (click)="func(2) " (click)="favoritos()"><ion-icon name="heart" id="corazon2"></ion-icon></a>
    
     <h5>300€</h5>
     </div>
@@ -131,7 +133,7 @@
 
      <span class="TituProdu">Auriculares Gaming </span> <ion-note> Logitech  <b>G332 </b> </ion-note>
     <div class="iconoPre">
-      <a (click)="func(3)"><ion-icon name="heart" id="corazon3"></ion-icon></a>
+      <a (click)="func(3) "(click)="favoritos()"><ion-icon name="heart" id="corazon3"></ion-icon></a>
    
     <h5>300€</h5>
     </div>
@@ -144,10 +146,14 @@
 
      <span class="TituProdu">Lenovo Tab  </span> <ion-note>  M10 FHD Plus 10.3" 4/128GB <b>Gris </b> </ion-note>
     <div class="iconoPre">
-      <a (click)="func(4)"><ion-icon name="heart" id="corazon4"></ion-icon></a>
+      <a (click)="func(4)" (click)="favoritos()"><ion-icon name="heart" id="corazon4"></ion-icon></a>
    
     <h5>300€</h5>
     </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a class="float" target="_blank">
+<i class="fa fa-paper-plane my-float"></i>
+</a>
   </div>
   </ion-col>
 

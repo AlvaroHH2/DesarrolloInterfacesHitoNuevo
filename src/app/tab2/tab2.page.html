@@ -18,24 +18,19 @@
   <div class="foto">
     <img src="../../assets/imagen3.jpg" alt="">
   </div>
+  <ion-card>
  <nav class="centrado">
  <h6>HP Essential 255 G8 AMD 5 5500U/8GB SSD/15.6 </h6>
  <h6 id="stock"> <strong>En Stock!</strong>  
- Recibelo el martes 18 de Octubre</h6>
+ Recibelo el jueves 2 de Diciembre</h6>
 </nav>
+</ion-card>
 <nav class="botones">
-  <ion-item>
-    <ion-label id="cantidad">Cantidad </ion-label>
-    <ion-select value="1">
-      <ion-select-option value="1" color="tertiary">1</ion-select-option>
-      <ion-select-option value="2" color="tertiary">2</ion-select-option>
-
-      <ion-select-option value="3" color="tertiary">3</ion-select-option>
-
-      <ion-select-option value="4" color="tertiary">4</ion-select-option>
-
-    </ion-select>
-  </ion-item>
+  <nav class="cantidadItems">
+  <ion-button (click)="funcion(2)" id="itemB" color="medium"><ion-icon name="trash-outline"></ion-icon></ion-button>
+  <label id="cantidad">1</label>
+  <ion-button (click)="funcion(1)" id="itemB"><ion-icon name="add-outline"></ion-icon></ion-button>
+</nav>
   <div class="botonEliminarCesta">
   <ion-button  type="submit" expand="block"  color="medium" id="boton3" class="ion-text-capitalize">
     <ion-icon name="trash-outline"></ion-icon>
@@ -44,14 +39,7 @@
     
   <div class="finalizarCompra">
     <ion-card>
-    <nav class="tarifa">
-    <h6 id="tarifaPre">Tarifa Premium</h6>
-    <ion-item>
-    <ion-checkbox slot="start" color="primary" ></ion-checkbox>
-      <h6 id="contratar">Contratar Tarifa Premium</h6>
-  </ion-item>
-
-  </nav>
+   
 
   <nav class="precio">
     <h5 id="total">Total:</h5>
@@ -64,7 +52,7 @@
   <ion-button  type="submit" expand="block"  color="success" id="boton2" class="ion-text-capitalize">
     Seguir Comprando</ion-button>
   </div>
-    <ion-button href="/tab5" type="submit" expand="block"  color="dark" id="boton2" class="ion-text-capitalize">
+    <ion-button href="/tabs/tab5" type="submit" expand="block"  color="dark" id="boton2" class="ion-text-capitalize">
       <ion-icon name="bag-add-outline" id="compraMas"></ion-icon>
       Finalizar Compra</ion-button>
 </nav>

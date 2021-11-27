@@ -1,0 +1,75 @@
+.finalizadaCompra{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+
+}
+#imagen
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+p, h6,h4,a{
+    font-family: 'Quicksand', sans-serif;
+
+ }
+ h6{
+     color: green;
+     font-size: 24px;
+     text-align: center;
+     margin-top:10px ;
+ }
+ #plus{
+     margin-right: 8px;
+ }
+ #boton1{
+     margin-bottom: 20px;
+     height: 50px;
+     width: 60%;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+ #boton2{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+#boton3{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TituProdu{
+    font-weight: 700;
+    color: #68385d;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10pt;
+   
+}
+.recomendados{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   width: 95%;
+   margin: auto;
+        
+}
+
+#precio{
+    color: green;
+}
+#auriculares img{
+    margin-top: 25px;
+    font-size: 60px;
+}
+ 

@@ -2,13 +2,15 @@
   <ion-toolbar>
     <ion-title>Finalizar Compra</ion-title>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/tab1"></ion-back-button>
+      <ion-back-button defaultHref="/tabs/tab2"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" >
+ 
   <div class="Comprar">
+
   <img src="../../assets/imagen3.jpg" alt="" id="imagen">     
 
   <h6 id="textoPro">HP Essential 255 G8 AMD Ryzen 5 5500U/8GB
@@ -16,15 +18,15 @@
     </h6>
     <h4 class="ion-text-left" >Dirección de Envío</h4>
     <nav class="direccion">
+    
       <ion-radio-group>
         
         <ion-item>
        
-   
+         
           <ion-radio slot="start" value="Calle1" ></ion-radio>
           <ion-label title="Calle Carpinteros,7-28906-GETAFE" >Calle Carpinteros,7-28906-GETAFE </ion-label>
        
-        
           </ion-item>
     
 
@@ -35,8 +37,11 @@
             <ion-radio slot="start" value="Calle2" ></ion-radio>
         </ion-item>
       </ion-radio-group>
+       
+   
 
     </nav>
+  
     <nav class="Método">
       <h4 class="ion-text-left" >Método de Pago</h4>
       <ion-radio-group>
@@ -63,7 +68,7 @@
         </ion-item>
         <ion-item>
           
-          <ion-label >Premium <b id="gratis">2€-5€</b></ion-label>
+          <ion-label >Premium <b>2€ - 5€</b></ion-label>
           <ion-radio slot="start" value="metodo2" (click)="MostrarDiv(2)" > </ion-radio>
         </ion-item>
       </ion-radio-group>
@@ -74,8 +79,8 @@
         <ion-label>Envio Estandar <b id="gratis">GRATIS!</b></ion-label>
         <ion-select placeholder="¿Que día quieres?">
           
-          <ion-select-option >2 /Dec /2021  </ion-select-option>
-          <ion-select-option>10 /Dec /2021  </ion-select-option>
+          <ion-select-option >2 /Dec /2021 (GRATIS) </ion-select-option>
+          <ion-select-option>10 /Dec /2021 (GRATIS) </ion-select-option>
         </ion-select>
 
       </div>
@@ -101,9 +106,9 @@
           
         </nav>
       </ion-card>
-      <ion-button  type="submit" color="primary" color="secondary"  id="comprarYa" class="ion-text-capitalize">Finalizar Compra</ion-button>
-      
+      <ion-button  type="submit" color="warning" id="comprarYa" class="ion-text-capitalize"  href="/tabs/tab6">Finalizar Compra</ion-button>
+     
     </div>
 
-
+ 
 </ion-content>

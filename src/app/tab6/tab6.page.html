@@ -1,0 +1,38 @@
+<ion-header>
+<ion-toolbar>
+  <ion-title>Finalizar Compra</ion-title>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="/tabs/tab4"></ion-back-button>
+  </ion-buttons>
+</ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="finalizadaCompra">
+<img src="../../assets/FinalizadaCompra.png" alt="" id="imagen">
+<h6><b>Compra Finalizada!</b></h6>
+<ion-button  type="submit" color="warning" id="boton1" class="ion-text-capitalize"  href="/tabs/tab1"><ion-icon name="document" id="plus"></ion-icon>Ver Factura</ion-button>
+<ion-button  type="submit" id="boton2" class="ion-text-capitalize"  href="/tabs/tab1" color="success"><ion-icon name="card" id="plus"></ion-icon>Seguir Comprando</ion-button>
+<ion-button  type="submit" id="boton3" class="ion-text-capitalize"  href="/tabs/tab3" color="dark"><ion-icon name="eye" id="plus"></ion-icon>Ver mis Pedidos</ion-button>
+<h5 class="ion-text-left">Productos recomendados</h5>
+
+<nav class="recomendados">
+  <ion-card href="tabs/tab1">
+    
+    <div id="auriculares">
+    <img src="../../assets/cascos.jpg" alt="">
+    <span class="TituProdu" >Auriculares Gaming </span> <ion-note> Logitech  <b>G332 </b> </ion-note>
+    <h5 id="precio">40€</h5>
+  </div>
+
+  </ion-card>
+  <ion-card href="tabs/tab1">
+    <img src="../../assets/portatil.jpg" alt="">
+    <span class="TituProdu">HP Essential </span> <ion-note> 255 G8 AMD 5 5500U/8GB SSD/15.6 </ion-note>
+    <h5 id="precio">350€</h5>
+
+
+  </ion-card>
+
+</nav>
+</div>
+</ion-content>
