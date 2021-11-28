@@ -22,4 +22,8 @@
 
 <p  align="center">
   <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/items.gif" width="350" alt="accessibility text">
+   <h3 align="center">Página de Compra Finalizada  </h3>
+
+<p  align="center">
+  <img src="  https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/PaginaCompraFinalizada.gif" width="350" alt="accessibility text">
 </p>
