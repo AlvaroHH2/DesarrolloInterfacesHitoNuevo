@@ -2,7 +2,9 @@
 
 <p align="center">
   <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/Tab1.jpg" width="350" >
+  <p>
  <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/favoritos.jpg" width="350" >
+    </p>
    <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/sEGUNDAIMG.jpg" width="350" >
 
   <p  align="center">Pagina de Compra </p>
