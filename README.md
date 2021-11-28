@@ -9,13 +9,17 @@
      <p align="center">
    <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/sEGUNDAIMG.jpg" width="350" >
 </p>
-  <p  align="center">Pagina de Compra 
+<h6>Página De Compra</h6>
+  <p  align="center">
   <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/PaginaCompra.gif" align="center" width="350" alt="accessibility text">
   </p>
-   <p  align="center">Añadir Favoritos 
+  <h6>Añadir a favoritos</h6>
+
+   <p  align="center">
   <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/favoritos.gif" width="350" alt="accessibility text">
 </p>   
-  
-<p  align="center">Cantidad de Items en la Cesta 
+  <h6>Cantidad de Items en la Cesta </h6>
+
+<p  align="center">
   <img src="https://github.com/AlvaroHH2/DesarrolloInterfacesHitoNuevo/blob/main/src/assets/github/items.gif" width="350" alt="accessibility text">
 </p>
