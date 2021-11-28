@@ -2,23 +2,14 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
-@font-face {
-  font-family: 'festive';
-  src: url(../assets/fonts/festive.ttf);
 
-}
+
 @font-face {
 font-family: 'titulo';
 src: url(../assets/fonts/lato.ttf);
 }
-@font-face {
-  font-family: 'opensans';
-  src: url(../assets/fonts/opensans.ttf);
-  }
-  @font-face {
-    font-family: 'chino';
-    src: url(../assets/fonts/chino.ttf);
-    }
+
+
 :root {
   /** primary **/
   --ion-color-primary: #a85e98;
